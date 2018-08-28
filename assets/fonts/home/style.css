@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'la-volpe';
+  src:  url('fonts/la-volpe.eot?7dqs4d');
+  src:  url('fonts/la-volpe.eot?7dqs4d#iefix') format('embedded-opentype'),
+    url('fonts/la-volpe.ttf?7dqs4d') format('truetype'),
+    url('fonts/la-volpe.woff?7dqs4d') format('woff'),
+    url('fonts/la-volpe.svg?7dqs4d#la-volpe') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'la-volpe' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
